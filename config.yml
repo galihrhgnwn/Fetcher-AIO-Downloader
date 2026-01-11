@@ -1,0 +1,14 @@
+server:
+  # Port options:
+  # - Number (example: 25810, 5000, 8080) -> Force the server to run on this port.
+  # - "auto" -> Automatically find a free available port (check terminal on startup).
+  port: 25810
+
+download:
+  # Download speed limit (rate limiting)
+  # Useful to prevent a single user from consuming all server bandwidth.
+  # Format:
+  # - "0"        : Unlimited (full speed / no limit)
+  # - "5 mbps"   : Limit to 5 megabits per second (stable for short videos)
+  # - "500 kbps" : Low bandwidth mode (downloads will be slow)
+  max_speed: "0"
