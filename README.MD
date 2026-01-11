@@ -6,18 +6,6 @@ Beyond local downloading, Fetcher features a **cloud-native pipeline** that allo
 
 ---
 
-## 🚀 Key Features
-
-- **Universal Support**: Auto-detects and handles URLs from YouTube, TikTok, Instagram (Reels/Posts), Facebook, and X (Twitter).
-- **Smart Media Parsing**:
-  - **Video**: Downloads the highest quality available (merges video+audio automatically via FFmpeg).
-  - **Slideshows**: Detects TikTok/Instagram image carousels and intelligently packages them into a ZIP or allows individual downloads.
-- **Real-Time Terminal**: Uses Server-Sent Events (SSE) to stream backend logs (`stdout`) directly to the web UI, mimicking a sleek macOS terminal experience.
-- **Traffic Control (New)**: Configurable Rate Limiting and Port Management via YAML configuration.
-- **Google Drive Integration**: Direct API integration to upload files to the user's personal Drive without permanent local storage retention.
-
----
-
 ## 🛠️ Prerequisites
 
 Ensure your environment meets the following requirements:
